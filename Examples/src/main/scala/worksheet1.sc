@@ -1,3 +1,7 @@
-val a = None
+import com.student.Person
 
-a.toList
+val human = Person("John", None, "Superman")
+
+human.name
+
+println(human.toString())
